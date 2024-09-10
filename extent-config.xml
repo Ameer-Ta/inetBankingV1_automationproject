@@ -1,0 +1,50 @@
+<extentreports>
+    <configuration>
+        <!-- Document Title -->
+        <documentTitle>InetBanking Test Project</documentTitle>
+
+        <!-- Report Name -->
+        <reportName>Functional Test Report</reportName>
+
+        <!-- Encoding -->
+        <encoding>utf-8</encoding>
+
+        <!-- Theme of the report (STANDARD/DARK) -->
+        <theme>DARK</theme>
+
+        <!-- Chart Visibility (whether to show charts in the report) -->
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+
+        <!-- Test View Chart Location -->
+        <testViewChartLocation>top</testViewChartLocation>
+
+        <!-- Protocol for the report path -->
+        <protocol>HTTPS</protocol>
+
+        <!-- Custom Styles (CSS) for additional styling -->
+        <styles>
+            .test-name { font-size: 20px; font-weight: bold; }
+            .category-name { font-weight: bold; }
+            .author-name { font-style: italic; }
+        </styles>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            console.log('Custom JavaScript can be added here');
+        </scripts>
+
+        <!-- Timeline -->
+        <enableTimeline>true</enableTimeline>
+
+        <!-- Order in which information appears in the report -->
+        <viewConfigurer>
+            <viewOrder>
+                <value>test</value>
+                <value>category</value>
+                <value>author</value>
+                <value>exception</value>
+                <value>device</value>
+            </viewOrder>
+        </viewConfigurer>
+    </configuration>
+</extentreports>
